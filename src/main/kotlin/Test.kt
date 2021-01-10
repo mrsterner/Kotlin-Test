@@ -1,5 +1,5 @@
 fun sayHello(greeting:String, itemToGreet:String) = println("$greeting $itemToGreet")
-
+//Split people into groups of all sizes randomly
 fun main() {
     sayHello("Hey","Kotlin")
 
