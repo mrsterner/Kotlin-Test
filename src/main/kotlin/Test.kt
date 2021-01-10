@@ -9,6 +9,7 @@ fun main() {
     val groupSize = readLine()!!.toInt()
     val listOfPeople = mutableListOf<String>()
     for (i in 1..intInput) {
+        print("Enter Name $i: ")
         val person = readLine()!!
         listOfPeople.add(person)
     }
