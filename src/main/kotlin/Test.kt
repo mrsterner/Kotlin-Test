@@ -3,9 +3,9 @@ fun sayHello(greeting:String, itemToGreet:String) = println("$greeting $itemToGr
 fun main() {
     sayHello("Hey","Kotlin")
 
-    print("Enter Amount of People: ")
+    print("Number of People: ")
     val intInput = readLine()!!.toInt()
-    print("Enter Group Size: ")
+    print("Number of Groups: ")
     val groupSize = readLine()!!.toInt()
     val listOfPeople = mutableListOf<String>()
     for (i in 1..intInput) {
